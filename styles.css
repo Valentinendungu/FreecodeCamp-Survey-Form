@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0 auto;
+  line-height: 1.8;
+  height:100%;
+  width: auto; 
+}     
+.main{
+  background-image: url(https://media.istockphoto.com/vectors/violet-abstract-geometric-template-vector-id1294598267?k=20&m=1294598267&s=612x612&w=0&h=a47K6zwWoAirHaDdf4yH6Z3gYEGyngdgO2v_OGsjS-M=);
+  background-repeat: repeat;
+  width: 100%;
+  color: black;
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left:0px;
+}
+#title {
+  font-family: inherit;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+#description {
+  text-align: center;
+  font-family: inherit;
+  font-size: 16px;
+  color: black;
+  line-height: 1.2;
+}
+#survey-form{
+  background-color: hsl(240, 32%, 27%, 0.6);
+  margin: auto;
+  border-radius: 1rem;
+  margin-top: 20px;
+  width: 700px;
+  padding: 2.1rem 2.1rem;
+}
+#submit {
+  width: 90%;
+  background-color: #04F404;
+  padding: 10px;
+  color: #000;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#submit:hover{
+  background-color: white;
+}
+.headings {
+  margin: 0 auto 0.7rem auto;
+  padding: 0.25rem;
+}
+.input {
+  display: block;
+  padding: 1.2rem;
+  width: 90%;
+  height: 1.5rem;
+  border-radius: 4px;
+  border: 1px solid #000;
+}
+
+#dropdown {
+  padding: 1.2rem;
+  width: 90%;
+  height: 1.5rem;
+  border-radius: 4px;
+  border: 1px solid #000;
+  color: black;
+}
